@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.3" installOnlyAtStartup="false" uuid="performance-07aeec">
+ <names>
+  <name lang="en_US">pongal_dance</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">This application contains the following solitary activity: When i say the trigger word as "Maari" , the Nao will dance.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Maari</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">Maari</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
